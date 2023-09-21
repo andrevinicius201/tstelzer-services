@@ -1,14 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./style.css";
+import Header from './components/Header';
+import Banner from './components/Banner';
+import DemonstracaoBotox from './components/DemonstracaoBotox';
+import ListaProcedimentos from './components/ListaProcedimentos';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Tstelzer webpage</h1>
-      </header>
+    <div>
+      <Header/>
+      <Banner/>
+      {/* <DemonstracaoBotox/> */}
+      <ListaProcedimentos/>
     </div>
   );
 }

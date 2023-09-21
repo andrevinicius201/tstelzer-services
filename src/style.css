@@ -1,0 +1,73 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+  background-color: blue;
+  width:100%;
+}
+
+.banner {
+  margin: auto;
+  padding:2.5em
+}
+
+.procedures {
+  max-width: 200px;
+  border-radius: 50% !important;
+}
+
+.procedimentosSection {
+    background-color: #E7C5A5;
+    margin-top: 0;
+    padding: 1.5em;
+}
+
+.wpp-call-button {
+    background-color: #7B716B;
+    max-width: 100%;
+    margin: auto;
+    margin-top:1.1em;
+    margin-bottom:1.1em;
+    color: white;
+    padding: 1.1em;
+    border-radius: 10px;
+}
+
+
+ /* Add a black background color to the top navigation */
+ .topnav {
+    background-color: #E7C5A5;
+    overflow: hidden;
+    width:100%
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  } 
